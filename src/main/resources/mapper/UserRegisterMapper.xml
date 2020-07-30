@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aust.ssml.mapper.UserRegisterMapper">
+
+    <insert id="insertUser">
+        insert into aust_user(uname, upwd, email, phone)
+        values(#{username}, #{userpwd}, #{email}, #{phone})
+    </insert>
+
+
+    <select id="selectUser" resultType="string">
+        select upwd from aust_user where uname = #{username}
+    </select>
+
+</mapper>

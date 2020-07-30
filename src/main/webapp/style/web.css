@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    padding: 10px 10px;
+    text-indent: 2em;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(91, 76, 230);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(83, 184, 224);
+}
+
+a:active {
+    text-decoration: underline;
+    color: rgb(20, 88, 88);
+}
+
+p :nth-child(20) {
+    font-size: 40px;
+}
+
+.span {
+    font-size: 20px;
+}
+
+.time {
+    color: blue;
+    position: absolute;
+    right: 100px;
+    /* font-family: Consolas; */
+}
+
+.zong {
+    width: 100%;
+    background-color: rgb(211, 209, 209);
+
+}
+
+.all {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    background-color: rgb(235, 234, 234);
+    border: 1px solid rgb(173, 172, 172);
+}
+
+/* 右边主体 */
+.right {
+    padding-top: 150px;
+    width: 31%;
+    float: right;
+}
+
+.box {
+    border: 1px solid rgb(173, 172, 172);
+}
+
+.box li {
+    padding: 7px 5px;
+    font-size: small;
+    margin-left: 40px;
+}
+
+.cankaohead, .kuozhanhead {
+    background-color: rgb(22, 119, 230);
+}
+
+.cankaohead p, .kuozhanhead p {
+    color: #fff;
+    padding-left: 20px;
+}
+
+/* 左边主体 */
+
+.head {
+    width: 100%;
+    margin: 20px auto;
+    background-color: rgb(22, 119, 230);
+}
+
+.daohang {
+    height: 60px;
+}
+
+.daohang li {
+    list-style-type: none;
+    float: left;
+    font-size: 15px;
+    padding: 15px 10px 20px;
+    color: #fff;
+}
+
+.mid {
+    width: 67%;
+    border: 1px solid rgb(194, 189, 189);
+    float: left;
+    position: relative;
+}
+
+.title {
+    padding: 2em;
+    text-align: center;
+}
+
+.main h3 {
+    padding: 5px 0px 5px 50px;
+
+}
+
+/* 底部 */
+
+.foot {
+    width: 100%;
+    height: 30px;
+    vertical-align: middle;
+    padding: 5px 0px 0px 30px;
+    background-color: rgb(22, 119, 230);
+    overflow: hidden;
+    position: relative;
+}
+
+.author {
+    position: absolute;
+    right: 60px;
+    color: #fff;
+}
+
+.footer {
+    height: 20px;
+}
